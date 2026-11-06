@@ -1,0 +1,48 @@
+.holdings-assets-table {
+  min-width: 1280px;
+  table-layout: fixed;
+}
+
+.holdings-assets-table .column-heading {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.holdings-assets-table th.number .column-heading {
+  justify-content: flex-end;
+}
+
+.column-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 15px;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #8e9b91;
+}
+
+.column-info:hover {
+  background: #edf3ec;
+  color: #326343;
+}
+
+.column-info svg {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .holdings-assets-table {
+     min-width: 1280px;
+  }
+}
+
+.app-shell[data-page="Visão geral"] .holdings-section {
+  display: none;
+}

@@ -1,0 +1,78 @@
+@media (min-width: 701px) {
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .top-date {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main {
+    width: 100%;
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  .holdings-heading h2 {
+    font-size: 15px;
+  }
+
+  .holdings-title .count-badge {
+    font-size: 10px;
+  }
+
+  .holdings-controls {
+    padding-inline: 25px;
+  }
+
+  .asset-tabs button {
+    font-size: 11px;
+  }
+
+  .table-tools .search-box input,
+  .sort-control select {
+    font-size: 11px;
+  }
+
+  .holdings-assets-table th {
+    padding-block: 16px;
+    font-size: 10px;
+  }
+
+  .holdings-assets-table td {
+    padding-block: 19px;
+    font-size: 12px;
+  }
+
+  .holdings-assets-table .asset-identity strong {
+    font-size: 13px;
+  }
+
+  .holdings-assets-table .asset-identity small {
+    font-size: 11px;
+  }
+
+  .holdings-assets-table .class-tag {
+    font-size: 10px;
+  }
+
+  .holdings-assets-table .result strong {
+    font-size: 12px;
+  }
+
+  .holdings-assets-table .result small {
+    font-size: 10px;
+  }
+
+  .holdings-section .table-footer {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1800px) {
+  main {
+    padding-inline: 58px;
+  }
+}
